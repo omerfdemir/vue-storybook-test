@@ -1,4 +1,5 @@
 import MbButton from "./MbButton.vue";
+import { Story } from "@storybook/vue";
 
 // More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
 export default {
@@ -15,8 +16,8 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
-const Template = (args, { argTypes }) => ({
-	props: Object.keys(argTypes),
+const Template: Story<MbButton> = (args: MbButton) => ({
+	props: args,
 	components: { MbButton },
 	template: '<mb-button @onClick="onClick" v-bind="$props" />',
 });
