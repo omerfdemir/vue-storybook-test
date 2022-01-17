@@ -16,8 +16,8 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
-const Template: Story<MbButton> = (args: MbButton) => ({
-	props: args,
+const Template = (args, { argTypes }) => ({
+	props: Object.keys(argTypes),
 	components: { MbButton },
 	template: '<mb-button @onClick="onClick" v-bind="$props" />',
 });
@@ -26,22 +26,22 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/vue/writing-stories/args
 Primary.args = {
 	primary: true,
-	label: "Button",
+	label: "Button Primary",
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-	label: "Button",
+	label: "Button Secondary",
 };
 
 export const Large = Template.bind({});
 Large.args = {
 	size: "large",
-	label: "Button",
+	label: "Button Large",
 };
 
 export const Small = Template.bind({});
 Small.args = {
 	size: "small",
-	label: "Button",
+	label: "Button Small",
 };
