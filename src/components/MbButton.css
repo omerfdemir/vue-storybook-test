@@ -5,27 +5,27 @@
 
   }
   .mb-button--primary {
-	color: cyan;
+	color: blueviolet;
 	background-color: transparent;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 
 
   }
   .mb-button--secondary {
-	color: red;
+	color: yellow;
 	background-color: transparent;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
   }
   .mb-button--small {
-	font-size: 12px;
+	font-size: 20px;
 	padding: 10px 16px;
   }
   .mb-button--medium {
-	font-size: 14px;
+	font-size: 40px;
 	padding: 11px 20px;
   }
   .mb-button--large {
-	font-size: 16px;
+	font-size: 60px;
 	padding: 12px 24px;
   }
   
