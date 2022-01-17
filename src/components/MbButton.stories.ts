@@ -1,5 +1,5 @@
+// @ts-nocheck Disable typechecking for the file for now
 import MbButton from "./MbButton.vue";
-import { Story } from "@storybook/vue";
 
 // More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
 export default {
