@@ -5,14 +5,14 @@
 
   }
   .mb-button--primary {
-	color: blue;
+	color: cyan;
 	background-color: transparent;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 
 
   }
   .mb-button--secondary {
-	color: #333;
+	color: red;
 	background-color: transparent;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
   }

@@ -1,7 +1,19 @@
 {
-	"name": "storybook-vue",
-	"version": "0.1.0",
-	"private": true,
+	"name": "@omerfdemir/vue-storybook-test",
+	"version": "0.1.1",
+	"private": false,
+	"description": "Vue Storybook Test",
+	"author": {
+		"name": "Ömer Faruk Demir",
+		"email": "demiromerfaruk@icloud.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/omerfdemir/vue-storybook-test"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"main": "./dist/mbcomponentlib.common.js",
 	"files": [
 		"dist/*",
@@ -50,6 +62,7 @@
 		"@vue/eslint-config-typescript": "^7.0.0",
 		"@vue/test-utils": "^1.0.3",
 		"babel-loader": "^8.2.3",
+		"chromatic": "^6.3.4",
 		"eslint": "^6.7.2",
 		"eslint-plugin-vue": "^6.2.2",
 		"sass": "^1.26.5",
