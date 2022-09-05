@@ -45,4 +45,4 @@ export default class MbButton extends Vue {
 }
 </script>
 
-<style lang="css" src="./MbButton.css"></style>
+<style lang="css" src="./MbButton.scss"></style>

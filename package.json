@@ -1,5 +1,5 @@
 {
-	"name": "@omerfdemir/vue-storybook-test",
+	"name": "mb-ui-framework-vue",
 	"version": "0.1.1",
 	"private": false,
 	"description": "Vue Storybook Test",
@@ -45,11 +45,11 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.16.7",
-		"@storybook/addon-actions": "^6.4.13",
-		"@storybook/addon-essentials": "^6.4.13",
-		"@storybook/addon-links": "^6.4.13",
+		"@storybook/addon-actions": "^6.5.9",
+		"@storybook/addon-essentials": "^6.5.9",
+		"@storybook/addon-links": "^6.5.9",
 		"@storybook/addon-postcss": "^2.0.0",
-		"@storybook/vue": "^6.4.13",
+		"@storybook/vue": "^6.5.9",
 		"@types/jest": "^24.0.19",
 		"@typescript-eslint/eslint-plugin": "^4.18.0",
 		"@typescript-eslint/parser": "^4.18.0",
